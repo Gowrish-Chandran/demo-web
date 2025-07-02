@@ -1,0 +1,74 @@
+.creative
+{
+  color:navy;
+}
+
+.flex-container
+{
+  display:flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.left,.right
+{
+  flex:1;
+  
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+@media (min-width:480px) and (max-width: 768px)
+{
+  .flex-container
+  {
+    flex-direction: column;
+  }
+  .logo
+  {
+    width:100px;
+    
+  }
+  h1
+  {
+    font-size: 3rem;
+  }
+}
+@media (max-width:480px)
+{
+  .flex-container
+  {
+    flex-direction: column;
+  }
+  .logo
+  {
+    width:100px;
+    
+  }
+  h1
+  {
+    font-size: 3rem;
+  }
+}
+
+.image
+{
+  border-radius:15px;
+  width:45%;
+  float:left;
+  padding:7px;
+  
+}
+footer
+{
+  text-align: right;
+  color:navy;
+}
+
+.image:hover
+{
+  border:5px solid blueviolet;
+  padding:0px;
+}
